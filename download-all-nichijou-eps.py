@@ -14,7 +14,7 @@ def download_image(_url,_title):
     for i in range(len(img_list)):
         _response = requests.get(master_url+img_list[i], stream = True)
         if _response.status_code == 200:
-            filename = str(i+1)+'.jpg'
+            filename = _title + '_' + str(i+1)+'.jpg'
             with open(_title + '/' + filename,'wb') as f:
                 shutil.copyfileobj(_response.raw,f)
         else:
