@@ -9,7 +9,7 @@ Python3を何とかしてインストール(pipもインストールされるは
 
 各OSごとのインストール方法 (https://www.python.jp/install/install.html)
 
-pipを使ってBeautiful Soupをインストール
+pipを使ってrequests, beautifulsoup4をインストール (既にインストールしていなければ)
 
 `pip3 install beautifulsoup4`
 
