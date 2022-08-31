@@ -5,13 +5,11 @@
 - BeautifulSoup
 
 ## 導入方法
-Python3を何とかしてインストール(がんばる)
+Python3を何とかしてインストール(pipもインストールされるはず)
 
-*pip3もなんとかしてインストール！！！*
+各OSごとのインストール方法 (https://www.python.jp/install/install.html)
 
-Windows用(Python3とpip3): https://and-engineer.com/articles/YcJyaRAAACMAl3BX
-
-Beautiful Soupをインストール
+pipを使ってBeautiful Soupをインストール
 
 `pip3 install beautifulsoup4`
 
