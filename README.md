@@ -2,7 +2,7 @@
 
 ## 必要なもの
 - Python3
-- BeautifulSoup
+- Requests, BeautifulSoup (Pythonパッケージ)
 
 ## 導入方法
 Python3を何とかしてインストール(pipもインストールされるはず)
