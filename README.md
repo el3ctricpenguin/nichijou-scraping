@@ -9,6 +9,7 @@ Python3を何とかしてインストール(がんばる)
 
 *pip3もなんとかしてインストール！！！*
 
+Windows用(Python3とpip3): https://and-engineer.com/articles/YcJyaRAAACMAl3BX
 
 Beautiful Soupをインストール
 
