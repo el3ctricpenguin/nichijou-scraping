@@ -1,6 +1,9 @@
 import requests, json, os, shutil
 from bs4 import BeautifulSoup
 
+#このサイトはリンクを絶対パスで書いてるので (ドメイン名) + (hrefの文字列) で実際のURLになる
+master_url='https://web-ace.jp'
+url='https://web-ace.jp/youngaceup/contents/1000069/episode/'
 
 #漫画ページのURL, タイトル を受け取る
 #タイトル名のフォルダをつくる
@@ -29,10 +32,6 @@ def download_image(_url,_title):
 
 def zenkakuToHankaku(text):
     return text.translate(str.maketrans({chr(0xFF01 + i): chr(0x21 + i) for i in range(94)}))
-
-#このサイトはリンクを絶対パスで書いてるので (ドメイン名) + (hrefの文字列) で実際のURLになる
-master_url='https://web-ace.jp'
-url='https://web-ace.jp/youngaceup/contents/1000069/episode/'
 
 #エピソード一覧のページから各エピソードへのリンクとエピソード名を取得する
 #各カードごとにタイトルの数字を全角→半角変換した後、リンクとタイトルをdownload_image()に投げる
